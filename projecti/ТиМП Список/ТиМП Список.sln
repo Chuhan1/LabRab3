@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ТиМП Список", "ТиМП Список\ТиМП Список.vcxproj", "{C55A50C0-E8E7-40C2-A60E-C2C918819AB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55A50C0-E8E7-40C2-A60E-C2C918819AB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C55A50C0-E8E7-40C2-A60E-C2C918819AB3}.Debug|Win32.Build.0 = Debug|Win32
+		{C55A50C0-E8E7-40C2-A60E-C2C918819AB3}.Release|Win32.ActiveCfg = Release|Win32
+		{C55A50C0-E8E7-40C2-A60E-C2C918819AB3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

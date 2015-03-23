@@ -1,0 +1,87 @@
+\hypertarget{1423_8cpp}{}\section{Файл ТиМП Список/1423.cpp}
+\label{1423_8cpp}\index{ТиМП Список/1423.\+cpp@{ТиМП Список/1423.\+cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_spisok}{Spisok}
+\end{DoxyCompactItemize}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{1423_8cpp_ae6fff448e0a7fc56be791cfcee9d5ffa}{Add\+Spisok} (int position, int value)
+\item 
+void \hyperlink{1423_8cpp_a99faab11157100ffe2568fd63f2f43ff}{Delete\+Spisok} (int position)
+\item 
+void \hyperlink{1423_8cpp_a12bafd2bf8ecaa559e259dc5a6c7fcd9}{Print\+Spisok} ()
+\item 
+void \hyperlink{1423_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_spisok}{Spisok} $\ast$ \hyperlink{1423_8cpp_a84e24a765a231a36b9d01671ae23b411}{head}
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\begin{DoxyVersion}{Версия}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Дата}
+23/03/2015  Реализация списка 
+\end{DoxyDate}
+
+
+\subsection{Функции}
+\hypertarget{1423_8cpp_ae6fff448e0a7fc56be791cfcee9d5ffa}{}\index{1423.\+cpp@{1423.\+cpp}!Add\+Spisok@{Add\+Spisok}}
+\index{Add\+Spisok@{Add\+Spisok}!1423.\+cpp@{1423.\+cpp}}
+\subsubsection[{Add\+Spisok}]{\setlength{\rightskip}{0pt plus 5cm}void Add\+Spisok (
+\begin{DoxyParamCaption}
+\item[{int}]{position, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}\label{1423_8cpp_ae6fff448e0a7fc56be791cfcee9d5ffa}
+Функция добавления элемента создание нового элемента
+
+присвоение элементу значения
+
+если список пуст
+
+установка указателя next
+
+установка указателя prev
+
+определяется голова списка \hypertarget{1423_8cpp_a99faab11157100ffe2568fd63f2f43ff}{}\index{1423.\+cpp@{1423.\+cpp}!Delete\+Spisok@{Delete\+Spisok}}
+\index{Delete\+Spisok@{Delete\+Spisok}!1423.\+cpp@{1423.\+cpp}}
+\subsubsection[{Delete\+Spisok}]{\setlength{\rightskip}{0pt plus 5cm}void Delete\+Spisok (
+\begin{DoxyParamCaption}
+\item[{int}]{position}
+\end{DoxyParamCaption}
+)}\label{1423_8cpp_a99faab11157100ffe2568fd63f2f43ff}
+Функция удаления элемента если это последний элемент в списке
+
+удаление элемента
+
+удаление элемента \hypertarget{1423_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{}\index{1423.\+cpp@{1423.\+cpp}!main@{main}}
+\index{main@{main}!1423.\+cpp@{1423.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{1423_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+Вводим количество действий со списком, далее выбираем либо добавление элементов либо удаление элементов. Затем для добавления вводим индекс и значение элемента. Для удаления вводим индекс элемента.\hypertarget{1423_8cpp_a12bafd2bf8ecaa559e259dc5a6c7fcd9}{}\index{1423.\+cpp@{1423.\+cpp}!Print\+Spisok@{Print\+Spisok}}
+\index{Print\+Spisok@{Print\+Spisok}!1423.\+cpp@{1423.\+cpp}}
+\subsubsection[{Print\+Spisok}]{\setlength{\rightskip}{0pt plus 5cm}void Print\+Spisok (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{1423_8cpp_a12bafd2bf8ecaa559e259dc5a6c7fcd9}
+Функция печати списка 
+
+\subsection{Переменные}
+\hypertarget{1423_8cpp_a84e24a765a231a36b9d01671ae23b411}{}\index{1423.\+cpp@{1423.\+cpp}!head@{head}}
+\index{head@{head}!1423.\+cpp@{1423.\+cpp}}
+\subsubsection[{head}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Spisok}$\ast$ head}\label{1423_8cpp_a84e24a765a231a36b9d01671ae23b411}

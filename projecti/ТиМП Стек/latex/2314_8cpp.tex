@@ -1,0 +1,90 @@
+\hypertarget{2314_8cpp}{}\section{Файл ТиМП Стек/2314.cpp}
+\label{2314_8cpp}\index{ТиМП Стек/2314.\+cpp@{ТиМП Стек/2314.\+cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_stack}{Stack}
+\end{DoxyCompactItemize}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{2314_8cpp_afb89b0fa2240f5c454351fc0cd5c2500}{Creation} (\hyperlink{struct_stack}{Stack} $\ast$p)
+\item 
+int \hyperlink{2314_8cpp_a29b94d003eb8c3ea9d22167284d22072}{Full} (\hyperlink{struct_stack}{Stack} $\ast$p)
+\item 
+void \hyperlink{2314_8cpp_a9cd57b28c4bcc9853c8332070ff63d2a}{Add} (\hyperlink{struct_stack}{Stack} $\ast$p)
+\item 
+void \hyperlink{2314_8cpp_afb1b3885fe403fea52ba6fc9956e8b51}{Delete} (\hyperlink{struct_stack}{Stack} $\ast$p)
+\item 
+int \hyperlink{2314_8cpp_a451fb69c82b1edeecae0af37b28c68d0}{Print} (\hyperlink{struct_stack}{Stack} $\ast$p)
+\item 
+void \hyperlink{2314_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{2314_8cpp_acfc02ec89670db29251fda6a66602ce2}{n} =5
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\begin{DoxyVersion}{Версия}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Дата}
+23/03/2015  Реализация стека 
+\end{DoxyDate}
+
+
+\subsection{Функции}
+\hypertarget{2314_8cpp_a9cd57b28c4bcc9853c8332070ff63d2a}{}\index{2314.\+cpp@{2314.\+cpp}!Add@{Add}}
+\index{Add@{Add}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}void Add (
+\begin{DoxyParamCaption}
+\item[{{\bf Stack} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_a9cd57b28c4bcc9853c8332070ff63d2a}
+Функция добавления элемента в стек \hypertarget{2314_8cpp_afb89b0fa2240f5c454351fc0cd5c2500}{}\index{2314.\+cpp@{2314.\+cpp}!Creation@{Creation}}
+\index{Creation@{Creation}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{Creation}]{\setlength{\rightskip}{0pt plus 5cm}void Creation (
+\begin{DoxyParamCaption}
+\item[{{\bf Stack} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_afb89b0fa2240f5c454351fc0cd5c2500}
+Функция создания стека \hypertarget{2314_8cpp_afb1b3885fe403fea52ba6fc9956e8b51}{}\index{2314.\+cpp@{2314.\+cpp}!Delete@{Delete}}
+\index{Delete@{Delete}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{Delete}]{\setlength{\rightskip}{0pt plus 5cm}void Delete (
+\begin{DoxyParamCaption}
+\item[{{\bf Stack} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_afb1b3885fe403fea52ba6fc9956e8b51}
+Функция удаления элемента из стека \hypertarget{2314_8cpp_a29b94d003eb8c3ea9d22167284d22072}{}\index{2314.\+cpp@{2314.\+cpp}!Full@{Full}}
+\index{Full@{Full}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{Full}]{\setlength{\rightskip}{0pt plus 5cm}int Full (
+\begin{DoxyParamCaption}
+\item[{{\bf Stack} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_a29b94d003eb8c3ea9d22167284d22072}
+Функция проверки стека на пустоту \hypertarget{2314_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{}\index{2314.\+cpp@{2314.\+cpp}!main@{main}}
+\index{main@{main}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+Основная функция Вводим количество действий над стеком. Выбираем между добавлением и удалением файла\hypertarget{2314_8cpp_a451fb69c82b1edeecae0af37b28c68d0}{}\index{2314.\+cpp@{2314.\+cpp}!Print@{Print}}
+\index{Print@{Print}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{Print}]{\setlength{\rightskip}{0pt plus 5cm}int Print (
+\begin{DoxyParamCaption}
+\item[{{\bf Stack} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{2314_8cpp_a451fb69c82b1edeecae0af37b28c68d0}
+Функция печати стека 
+
+\subsection{Переменные}
+\hypertarget{2314_8cpp_acfc02ec89670db29251fda6a66602ce2}{}\index{2314.\+cpp@{2314.\+cpp}!n@{n}}
+\index{n@{n}!2314.\+cpp@{2314.\+cpp}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}const int n =5}\label{2314_8cpp_acfc02ec89670db29251fda6a66602ce2}
